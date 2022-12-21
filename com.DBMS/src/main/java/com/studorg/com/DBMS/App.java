@@ -40,7 +40,7 @@ public class App
 			stmt1.executeUpdate();
 			
 			//No need to update in Stock table it will get auto updated
-			//As while creating constraints we had ON UPDATE CASCADE added
+			//As while creating foreign key constraints we had ON UPDATE CASCADE added
 
 			
 
