@@ -38,6 +38,9 @@ public class App
 			stmt1.setString(1, "dd1");
 			stmt1.setString(2, "d1");
 			stmt1.executeUpdate();
+			
+			//No need to update in Stock table it will get auto updated
+			//As while creating constraints we had ON UPDATE CASCADE added
 
 			
 
